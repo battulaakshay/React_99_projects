@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Custom class to rotate an element 180 degrees on the Y-axis */
+.rotate-y-180 {
+    transform: rotateY(180deg);
+}
