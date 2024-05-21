@@ -13,19 +13,18 @@ import Box from './components/color-Box-app/Box';
 import Lyrics from './components/Lyrics-Finder-9/Lyrics';
 import Food from './components/Food-recipe-app/Food';
 import Qr from './components/Qr-code-generator/Qr';
-import Word_letter from './components/word_letter_counter/word_letter';
-
+import Letter_counter from './components/word_letter_counter/Letter_counter';
 
 const App = () => {
-  const [fm,setFm]=useState(true);
-   function toggleForm(){
-    setFm( prev => prev === false ? true : false);
+  const [fm, setFm] = useState(true);
+  function toggleForm() {
+    setFm(prev => prev === false ? true : false);
     // setFm(prev=>!prev);
-   }
+  }
 
-    return (
-     <div>
-    {/* <Filejoke/> */}
+  return (
+    <div>
+      {/* <Filejoke/> */}
       {/* <JokeComponent/> */}
 
       {/* <Formsample/> */}
@@ -33,32 +32,31 @@ const App = () => {
 
       {/* <button onClick={toggleForm} className='border px-2 py-4 bg-yellow-400'>Toggle</button>
       {fm ? <Formsample /> : <Form/>} */}
-{/* <DiceRoller/> */}
+      {/* <DiceRoller/> */}
       {/* <Map/> */}
 
 
 
       {/* project-5 */}
-    {/* <Rock/> */}
-    {/* project-6 */}
-    {/* <Todo/> */}
-    {/* project-7 */}
-    {/* <Quizapp/> */}
-    {/* project-8 */}
-    {/* <Flipcoin/> */}
-    {/* project-9 */}
-    {/* <Box/> */}
-    {/* project-9 */}
-    {/* <Lyrics/> */}
-    {/* project-10 */}
-    {/* <Food/> */}
-    {/* project-11 */}
-    {/* <Qr/> */}
-    {/* project-12 */}
-    <Word_letter/>
-      
-     </div>
-    );
+      {/* <Rock/> */}
+      {/* project-6 */}
+      {/* <Todo/> */}
+      {/* project-7 */}
+      {/* <Quizapp/> */}
+      {/* project-8 */}
+      {/* <Flipcoin/> */}
+      {/* project-9 */}
+      {/* <Box/> */}
+      {/* project-9 */}
+      {/* <Lyrics/> */}
+      {/* project-10 */}
+      {/* <Food/> */}
+      {/* project-11 */}
+      {/* <Qr/> */}
+      {/* project-12 */}
+      <Letter_counter />
+    </div>
+  );
 };
 
 export default App;
