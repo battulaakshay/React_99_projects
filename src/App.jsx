@@ -35,7 +35,8 @@ const App = () => {
       {/* <DiceRoller/> */}
       {/* <Map/> */}
 
-
+      {/* project-1 */}
+      {/* <Formsample /> */}
 
       {/* project-5 */}
       {/* <Rock/> */}
@@ -54,7 +55,8 @@ const App = () => {
       {/* project-11 */}
       {/* <Qr/> */}
       {/* project-12 */}
-      <Letter_counter />
+      {/* <Letter_counter /> */}
+      {/* project-13 */}
     </div>
   );
 };
